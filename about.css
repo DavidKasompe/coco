@@ -1,0 +1,52 @@
+body{
+    background-color: rgb(41, 90, 62);
+}
+
+/* General styling for About Us page */
+.about-us {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+/* Section headings */
+.about-us h1, .about-us h2 {
+    color: antiquewhite;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Paragraph styling */
+.about-us p {
+    font-size: 18px;
+    color: antiquewhite;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+/* List styling */
+.about-features ul {
+    color: antiquewhite;
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.about-features li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* About Us Section */
+.about-intro, .about-values, .about-story, .about-features {
+    margin-bottom: 40px;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color:antiquewhite;
+    color: white;
+}

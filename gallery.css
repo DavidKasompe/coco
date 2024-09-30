@@ -1,0 +1,66 @@
+/* Gallery Section Styling */
+body{
+    background-color: rgb(41, 90, 62);
+}
+
+.gallery {
+    max-width: 1200px;
+    margin-top: 15px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+.gallery h1 {
+    color:  antiquewhite;
+    margin-bottom: 20px;
+}
+
+.gallery p {
+    font-size: 18px;
+    color:  antiquewhite;
+    margin-bottom: 40px;
+}
+
+/* Grid styling for gallery items */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 30px; /* Space between images */
+}
+
+/* Individual gallery item styling */
+.gallery-item {
+    overflow: hidden; /* Hide overflow for hover effect */
+    border-radius: 10px; /* Rounded corners */
+    transition: transform 0.3s; /* Smooth scale effect on hover */
+}
+
+.gallery-item img {
+    width: 100%; /* Responsive images */
+    height: auto; /* Maintain aspect ratio */
+}
+
+/* Hover effect */
+.gallery-item:hover {
+    transform: scale(1.05); /* Scale image on hover */
+}
+
+.Hotel-Exterior{
+    margin-left: 50%;
+}
+
+h2 {
+    color: antiquewhite;
+    flex-direction: row-reverse;
+    text-align: inherit;
+}
+
+.footer {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem; 
+}

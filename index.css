@@ -1,0 +1,180 @@
+body {
+  background-color: rgb(41, 90, 62); /* Test if the CSS is being applied */
+  color: white;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-blade {
+  background-color: rgb(
+    41,
+    90,
+    62
+  ) !important; /* Dark background for the navigation */
+  /* border-radius: 50px;        Rounded corners for the blade effect */
+  padding: 0;
+  padding-left: 10px; /* Padding for the left side of the menu */
+  /* box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); Subtle shadow for depth */
+  overflow: hidden;
+}
+
+.nav-blade .nav-link {
+  color: rgb(25, 15, 15) !important; /* Ensure the nav links are white */
+  padding: 10px 20px; /* Add padding for a sleeker button feel */
+  border-radius: 30px; /* Rounded individual nav links */
+  margin: 0 5px; /* Space between the nav links */
+  transition: background-color 0.3s; /* Smooth hover transition */
+}
+
+.nav-blade .nav-link.active {
+  background-color: #1abc9c; /* Teal background for the active link */
+}
+
+.nav-blade .nav-link:hover {
+  background-color: #16a085; /* Hover effect with a darker teal */
+}
+
+/* Remove the default border-bottom in the header */
+header {
+  border-bottom: none;
+}
+
+.coconut-tree {
+  width: 8%;
+  height: auto;
+}
+
+.coco-first {
+  color: antiquewhite;
+  text-size-adjust: 50%;
+  max-width: 100%;
+  margin-top: 15%;
+}
+
+.coco-first {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-left: 5%;
+}
+
+/* .coco-secondary {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 10%;
+  } */
+
+.lead {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-left: 10%;
+  margin-top: 5px;
+  padding: auto;
+  color: antiquewhite;
+  text-size-adjust: 50%;
+}
+
+.pool-home {
+  width: 500px;
+  height: 500px;
+  border-radius: 5%;
+}
+
+.container1 {
+  background: rgb(41, 90, 62);
+}
+.container1:after {
+  background: linear-gradient(-45deg, rgb(124, 123, 123) 16px, transparent 0),
+    linear-gradient(45deg, rgb(138, 135, 135) 16px, transparent 0);
+  background-position: left-bottom;
+  background-repeat: repeat-x;
+  background-size: 32px 32px;
+  content: " ";
+  display: block;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 32px;
+}
+.container2 {
+  margin-top: -27px;
+}
+.container2:after {
+  background: linear-gradient(-45deg, rgb(41, 90, 62) 16px, transparent 0),
+    linear-gradient(45deg, rgb(41, 90, 62) 16px, transparent 0);
+  background-position: left-bottom;
+  background-repeat: repeat-x;
+  background-size: 32px 32px;
+  content: " ";
+  display: block;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 32px;
+}
+
+/* Remove border from the navbar */
+.navbar {
+  border: none; /* Removes any border */
+}
+
+/* Additionally, if using Bootstrap's default border styling, this can help */
+.nav {
+  border-bottom: none; /* Removes bottom border from nav */
+}
+
+.book-now-btn {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 15px, 50px;
+  background-color: rgb(38, 135, 137); /* A vibrant color to draw attention */
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, transform 0.3s;
+  min-width: 200px;
+  max-width: 25%;
+}
+
+.button-container {
+  text-align: center;
+  margin-left: 50%;
+  margin-top: 10px;
+}
+
+.book-now-btn:hover {
+  background-color: #31ae9b; /* Darker red on hover */
+  transform: translateY(-3px); /* Lift effect on hover */
+}
+
+.book-now-btn:active {
+  background-color: #cc3636; /* Darker still on click */
+  transform: translateY(0); /* Return to original position */
+}
+
+/* Media Query for Tablet and Smaller Devices */
+@media (max-width: 768px) {
+  .book-now-btn {
+    padding: 15px 40px; /* Slightly smaller padding for tablets */
+    font-size: 16px; /* Smaller font size for smaller screens */
+    min-width: 180px; /* Adjust button width */
+  }
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+  .book-now-btn {
+    padding: 10px 30px; /* Further reduce padding for mobile */
+    font-size: 14px; /* Smaller font size for better readability on mobile */
+    min-width: 160px; /* Smaller width for mobile screens */
+    max-width: 90%; /* Make sure it doesn't overflow on smaller devices */
+  }
+}
