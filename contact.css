@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(41, 90, 62;
+}
+#contact h2 {
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+}
+
+#contact ul {
+    padding-left: 0;
+}
+
+#contact ul li {
+    margin-bottom: 10px;
+}
+
+form input, form textarea {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding:
+}
