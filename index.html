@@ -81,6 +81,45 @@
       </div>
       
     </section>
+    <section>
+      <div class="container my-5">
+        <div class="row gallery">
+            <div class="col-md-4">
+                <img src="./style/hotel img/Spa Facility.jpg" alt="Image 1" class="img-fluid" data-toggle="modal" data-target="#imageModal">
+            </div>
+            <div class="col-md-4">
+                <img src="./style/hotel img/Swimming Pool.jpg" alt="Image 2" class="img-fluid" data-toggle="modal" data-target="#imageModal">
+            </div>
+            <div class="col-md-4">
+                <img src="./style/hotel img/Hotel Exterior.jpg" alt="Image 3" class="img-fluid" data-toggle="modal" data-target="#imageModal">
+            </div>
+            <div class="col-md-4 breakfast-center">
+                <img src="./style/hotel img/breakfast.png.jpg" alt="Image 3" class="img-fluid" data-toggle="modal" data-target="#imageModal">
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="imageModal" tabindex="-1" role="dialog" aria-labelledby="imageModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <img src="" alt="" class="modal-img">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    </section>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script>
+    $('.gallery img').on('click', function () {
+        var src = $(this).attr('src');
+        $('.modal-img').attr('src', src);
+    });
+</script>
     <script src="./script.js"></script>
   </body>
 </html>

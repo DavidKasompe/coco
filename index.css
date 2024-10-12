@@ -178,3 +178,45 @@ header {
     max-width: 90%; /* Make sure it doesn't overflow on smaller devices */
   }
 }
+
+.gallery img {
+  width: 100%;
+  height: auto;
+  cursor: pointer;
+}
+.modal-img {
+  width: 100%;
+  height: auto;
+}
+
+.breakfast-center{
+  display: block;
+  margin-bottom: 20px;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
+
+@media screen {
+  
+}
+
+/* Media Query for Tablet and Smaller Devices */
+@media (max-width: 768px) {
+  .book-now-btn {
+    padding: 15px 40px; /* Slightly smaller padding for tablets */
+    font-size: 16px; /* Smaller font size for smaller screens */
+    min-width: 180px; /* Adjust button width */
+  }
+
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 480px) {
+  .book-now-btn {
+    padding: 10px 30px; /* Further reduce padding for mobile */
+    font-size: 14px; /* Smaller font size for better readability on mobile */
+    min-width: 160px; /* Smaller width for mobile screens */
+    max-width: 90%; /* Make sure it doesn't overflow on smaller devices */
+  }
+}
